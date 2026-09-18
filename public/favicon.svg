@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="16" y1="16" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="2" width="64" height="62" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Protective Outer Shield -->
+  <path d="M32 4L10 13.5V29.5C10 43.8 19.4 55.4 32 59.5C44.6 55.4 54 43.8 54 29.5V13.5L32 4Z" 
+        fill="url(#shieldGrad)" filter="url(#shadow)"/>
+  
+  <!-- Subtle Inner Border -->
+  <path d="M32 7.5L13.5 15.5V29.5C13.5 41.8 21.4 52 32 55.5C42.6 52 50.5 41.8 50.5 29.5V15.5L32 7.5Z" 
+        stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5" fill="none"/>
+
+  <!-- Automotive Dynamic Velocity Wings & Financial Approval Checkmark -->
+  <!-- Forward Automotive Chevrons -->
+  <path d="M22 22L32 16L42 22L32 28L22 22Z" fill="#ffffff" fill-opacity="0.95"/>
+  <path d="M22 30L32 24L42 30L32 36L22 30Z" fill="url(#accentGrad)"/>
+
+  <!-- Center Financial Growth Point -->
+  <circle cx="32" cy="42" r="3.5" fill="#ffffff"/>
+  <path d="M28 42H36" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

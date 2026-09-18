@@ -85,15 +85,18 @@
         >
           <!-- KOP SURAT RESMI PT. JKL -->
           <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #0f172a; padding-bottom: 0.75rem; margin-bottom: 1.25rem;">
-            <div>
-              <h1 style="font-size: 1.35rem; font-weight: 700; color: #1e3a8a; letter-spacing: 0.5px; font-family: sans-serif;">
-                PT. JKL PERKREDITAN MULTIFINANCE
-              </h1>
-              <div style="font-size: 0.8rem; color: #475569; font-family: sans-serif;">
-                Gedung Menara Finansial Lt. 14, Jl. Jend. Sudirman Kav. 52-53, Jakarta Selatan
-              </div>
-              <div style="font-size: 0.75rem; color: #64748b; font-family: sans-serif;">
-                Telp: (021) 555-8899 | Email: credit.operation@jkl-multifinance.co.id
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <CommonAppLogo size="md" :show-text="false" />
+              <div>
+                <h1 style="font-size: 1.35rem; font-weight: 700; color: #1e3a8a; letter-spacing: 0.5px; font-family: sans-serif;">
+                  PT. JKL PERKREDITAN MULTIFINANCE
+                </h1>
+                <div style="font-size: 0.8rem; color: #475569; font-family: sans-serif;">
+                  Gedung Menara Finansial Lt. 14, Jl. Jend. Sudirman Kav. 52-53, Jakarta Selatan
+                </div>
+                <div style="font-size: 0.75rem; color: #64748b; font-family: sans-serif;">
+                  Telp: (021) 555-8899 | Email: credit.operation@jkl-multifinance.co.id
+                </div>
               </div>
             </div>
             <div style="text-align: right;">
